@@ -140,7 +140,7 @@ def main():
     parser.add_argument("--data_root", type=str, default="data/")
     parser.add_argument("--backbone", type=str, default="eva02_large_patch14_448")
     parser.add_argument("--image_size", type=int, default=448)
-    parser.add_argument("--epochs", type=int, default=2)
+    parser.add_argument("--epochs", type=int, default=20)
     parser.add_argument("--batch_size", type=int, default=4)
     parser.add_argument("--lr", type=float, default=5e-5)
     parser.add_argument("--bce_weight", type=float, default=0.5)
