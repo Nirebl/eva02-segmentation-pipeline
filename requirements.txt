@@ -5,4 +5,7 @@ timm
 tqdm
 opencv-python
 
+# --find-links  https://download.pytorch.org/whl/cu129
+# torch>=2.8.0+cu129
+# torchvision>=0.23.0+cu129
 # pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu129
